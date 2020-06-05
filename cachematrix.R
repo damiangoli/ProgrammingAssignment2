@@ -4,7 +4,8 @@
 ## If the matrix has not changed, cacheSolve will use the cache to retreive the inverse.
 
 
-## First function, giving the matrix it will cache the inverse
+## First function,
+## giving the matrix it will cache the inverse.  
 makeCacheMatrix <- function(x = matrix()) {
   mCMinv <- NULL
   set <- function(y) {
@@ -17,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get, setinv = setinv, getinv = getinv)
 }
 
-## Next step is returning a matrix that is the inverse of 'x', or retreaving the inverse from the cache
+## Next function is returning a matrix that is the inverse of 'x', or retreaving the inverse from the cache
 ## if the inverse has already been calculated (and the matrix has not changed)
 
 cacheSolve <- function(x, ...) {
