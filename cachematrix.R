@@ -1,4 +1,4 @@
-## makeCacheMatrix and cacheSolve functions will be created for the week 3 assignement of the coursera class.
+## makeCacheMatrix and cacheSolve functions will be showed for the week 3 assignement of the coursera class.
 ## makeCacheMatrix will create a matrix that can cache its inverse
 ## cacheSolve will compute the inverse of the matrix provided by makeCacheMatrix function.
 ## If the matrix has not changed, cacheSolve will use the cache to retreive the inverse.
